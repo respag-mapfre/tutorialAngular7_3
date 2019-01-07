@@ -1,0 +1,15 @@
+a{
+  color:black!important;
+  font-family:cursive
+}
+li:hover{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.is-active{
+  background-color: pink!important;
+  border-radius: 35px;
+  padding:15px;
+
+}

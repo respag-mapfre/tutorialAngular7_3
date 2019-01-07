@@ -1,0 +1,16 @@
+<section class="section">
+    <div class="container">
+      <table>
+         <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Género</th>
+         </tr>
+         <tr *ngFor= "let est of estudiantes" >
+            <td>{{est.nombre}}</td>
+            <td>{{est.apellido}}</td>
+            <td>{{est.genero}}</td>
+         </tr>
+      </table>
+    </div>
+</section>
